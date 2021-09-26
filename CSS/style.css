@@ -1,0 +1,53 @@
+#movies img, #movie img{
+
+	width: 100%;
+
+
+
+}
+
+
+@media(min-width: 960px){
+	#movies .col-md-3 .well{
+		height: 500px;
+	}
+
+#movies .col-md-3 img{
+		height: 350px;
+	}
+}
+
+
+
+input[type=text]{
+
+	width: 100%;
+	border-color: grey;
+	
+}
+
+.jumbotron{
+
+	border-color: grey;
+	padding: 20px;
+	border-style: solid;
+}
+
+/*.col-md-8, .list-group, h3{
+
+	float: right;
+
+
+	tried to float it to the right. 
+	The text below the image is clearing the image by default.
+	Tried changing position to fixed and adjusting "top" and "right."*/
+}
+
+.col-md-8{
+
+	display: inline;
+
+
+
+
+}
